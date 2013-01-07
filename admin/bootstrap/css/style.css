@@ -1,0 +1,69 @@
+/* Custom stylesheet for decorating the pages */
+
+body {
+    color: #111111;
+    background-color: #F4F4F4;
+    font-family: 'PT Sans', Helvetica, Arial, sans-serif;
+    font-size: 15px;
+}
+
+.page {
+    position: relative;
+    top: 35px;
+    background-color: #FFFFFF;
+    box-shadow: 0 1px 3px #888888;
+    border-radius: 3px 3px 3px 3px;
+    margin: 0 auto 1.5em;
+    padding: 40px 60px 60px;
+    position: relative;
+}
+
+.wrapper {
+    margin: auto;
+    max-width: 1100px;
+    padding: 0 10px;
+}
+
+#business_info, #service_description, #member_bio {
+    height: 250px;
+}
+
+li {
+    list-style: none;
+}
+
+#logout {
+    position: relative;
+    left: 28px;
+}
+
+#admin_logout {
+    position: relative;
+    left: 353px;
+}
+
+/* stylesheet for ajax call */
+
+.success {
+    border-radius: 5px;
+    background: #a5e283;
+    border: #337f09 1px solid;
+    padding: 5px;
+}
+
+.error {
+    border-radius: 5px;
+    background: #ea7e7e;
+    border: #a71010 1px solid;
+    padding: 5px;
+}
+
+.hide_modal {
+    display: none;
+}
+
+.showhide {
+    color: #003399;
+    cursor: pointer;
+}
+
